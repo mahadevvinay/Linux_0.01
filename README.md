@@ -11,7 +11,6 @@ $patch -p1 < 	linux_0.01_Compilations_changes.patch
 $make
 
 4)Boot the Images  on Qemu
-qemu-system-i386 -m 128M -boot a -fda linux0.01-3.5.img -hdb hd_oldlinux.img
-
+qemu-system-i386 -m 128M -boot a -fda Images/linux0.01-3.5.img -hdb Images/linux-0.11.img
 
 
